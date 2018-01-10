@@ -1,4 +1,5 @@
 language: cpp
 sudo: enabled
 os: osx
-script: g++ hello-world.cpp
+install: system_profiler -detailLevel full
+script: g++ hello-world.cpp && ./a.out
