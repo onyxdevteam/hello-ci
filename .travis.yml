@@ -1,0 +1,3 @@
+language: cpp
+sudo: enabled
+script: g++ hello-world.cpp
