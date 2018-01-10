@@ -1,4 +1,4 @@
 language: cpp
 sudo: enabled
-install: curl https://www.whoismyisp.org/
-script: g++ hello-world.cpp
+install: cat /proc/cpuinfo | grep processor | wc -l
+script: sleep 15
