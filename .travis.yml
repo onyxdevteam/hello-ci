@@ -1,4 +1,4 @@
 language: cpp
 sudo: enabled
-install: cat /proc/cpuinfo | grep processor | wc -l
-script: sleep 15
+os: osx
+script: g++ hello-world.cpp
