@@ -1,4 +1,4 @@
 language: cpp
 sudo: enabled
-install: 
+install: libsodium-dev
 script: g++ hello-world.cpp
