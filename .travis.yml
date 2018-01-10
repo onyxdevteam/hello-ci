@@ -1,4 +1,4 @@
 language: cpp
 sudo: enabled
-install: libsodium-dev
+install: sudo apt update && sudo apt install libsodium-dev
 script: g++ hello-world.cpp
