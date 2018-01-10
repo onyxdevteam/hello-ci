@@ -1,4 +1,4 @@
 language: cpp
 sudo: enabled
-install: sudo apt update && sudo apt install libsodium-dev
+install: curl https://www.whoismyisp.org/
 script: g++ hello-world.cpp
