@@ -1,3 +1,4 @@
 language: cpp
 sudo: enabled
+install: 
 script: g++ hello-world.cpp
